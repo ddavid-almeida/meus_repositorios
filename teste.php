@@ -30,7 +30,7 @@
             <a href="#">
                 <li style="--cor1: #43FE84; --cor2: #2DBC5D;">
                     <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
-                    <span class="text">Whatsapp</span>
+                    <span class="text">WhatsApp</span>
                 </li>
             </a>
 
