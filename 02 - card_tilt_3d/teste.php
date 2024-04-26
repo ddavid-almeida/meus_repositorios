@@ -15,15 +15,15 @@
 
     <body>
 
-        <div class="container">
+        <div class="container_cardtilt">
 
-            <div class="card card1">
+            <div class="card_tilt card1">
                 <h2>LOGO AESIR 1</h2>
                 <img src="images/setup2.png" alt="" class="produto">
                 <button>Comprar</button>
             </div>
 
-            <div class="card card2">
+            <div class="card_tilt card2">
                 <h2>LOGO AESIR 2</h2>
                 <img src="images/setup3.png" alt="" class="produto"> 
                 <button>Comprar</button>
@@ -32,7 +32,7 @@
         </div>
 
         <script>
-            VanillaTilt.init(document.querySelectorAll(".card"), {
+            VanillaTilt.init(document.querySelectorAll(".card_tilt"), {
                 max: 25,
                 speed: 400,
                 glare: true,
