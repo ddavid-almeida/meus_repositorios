@@ -12,9 +12,9 @@
 
     <body>
 
-        <div>
+        <div class="div-darkmodetheme">
             <h1> Dark Mode </h1>
-            <button id="btn-dark-mode-toggle"></button>
+            <button class="button-darkmode" id="btn-dark-mode-toggle"></button>
         </div>
 
     </body>

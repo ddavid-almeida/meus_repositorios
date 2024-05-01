@@ -5,12 +5,10 @@
     --secondarycolor: #914600;
 }
 
-
 [data-theme="dark"]{
     --white: #000000;
     --dark: #ffffff;
 }
-
 
 *{
     margin: 0;
@@ -25,7 +23,7 @@ body{
     background-color: var(--white);
 }
 
-div{
+.div-darkmodetheme{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -36,7 +34,7 @@ div{
     border-radius: 10px;
 }
 
-button{
+.button-darkmode{
     background-color: var(--primarycolor);
     padding: .4rem;
     border: none;
@@ -46,8 +44,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.button-darkmode:hover{
     background-color: var(--secondarycolor);
     transition: .400ms;
-
 }
